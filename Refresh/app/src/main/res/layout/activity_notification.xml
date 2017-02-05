@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hackbrown.teamwildcard.refresh.Notification_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a compost pile to reduce waste going to landfills."
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Food waste such as old vegetables, egg shells, and orange peels can be used in a compost pile. Start with a 3 feet deep hole, the first layer being dead leaves, dead flowers, straw, cornstalks, and newspaper. Next, layer in plant based kitchen waste. There should be more of the first layer than the second. Next, layer a thin covering of soil and then another layer of dead leaves. Stir every so often, bringing the middle to the edges." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eat leftovers before getting new food. "
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="This will reduce the likelihood of you forgetting the leftovers in your fridge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leftovers can be used to make something new."
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Old Chinese can become stir fry, and old peppers can be a hot dog topping. Leftovers don’t have to go straight to the trash when they can be added to an omelet." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fries never stay."
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="If you have leftover fries at a restaurant, then the only thing you can do is give them to someone else. If you want guilt free potatoes, then try cutting up potatoes, mixing them with onion soup mix, and baking them when you can. They will last much longer, and taste much better than fries. " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Too many eggs?"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Turn your almost about to expire eggs into something less perishable like cookies. Maybe even package the baked goods and give them out to the homeless. " />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

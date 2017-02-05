@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facts about Food Waste"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food waste is one of the biggest environmental issues, and it is widely forgotten as one. The energy and resources that go into producing life sustaining food ends up in the trash, with 40% of America’s food production ending up in landfills. At a time of increasing resource scarcity, 20% of our land, 4% of our energy and 25% of our water is used to produce food that ends up being thrown out. The food in the trash bin must be hauled to the landfill, costing more energy, where it ultimately breaks down into methane, a highly potent greenhouse gas. One study in the U.K. found that eliminating all food waste from landfills would be equivalent to taking 1 in 4 cars off the road.
+
+In 2012, close to 50 million people struggled to put food on their tables in the US. Worldwide, that number is over one billion. While world hunger cannot be easily stopped with an app, you can make better choices as a consumer. This app was created to help people keep track of what food they have and how to more efficiently use it.
+
+If you want to further help the environment, subscribe to weekly notifications for tips. "/>
+
+</LinearLayout>
