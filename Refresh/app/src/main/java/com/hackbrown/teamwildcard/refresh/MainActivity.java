@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements android.widget.Co
     private ViewPager mViewPager;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
